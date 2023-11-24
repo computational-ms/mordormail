@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mordormail"
-version = "0.1.0"
+version = "0.1.1"
 description = "A utility class to easily send templated emails from within python scripts."
 authors = ["Tim Hudelmaier", "Kavi Seewoogoolam"]
 readme = "README.md"
