@@ -1,4 +1,4 @@
-from simple_mail.EmailContentClass import EmailContentClass
+from mordormail.EmailContentClass import EmailContentClass
 
 
 def test_initialization():
@@ -10,9 +10,9 @@ def test_initialization():
     assert email.template_name == "default.html"
     assert email.template_vars == {
         "message": "Hello, World!",
-        "signature": "The SimpleMail Utility",
+        "signature": "The MordorMail Utility",
     }
-    assert email.signature == "The SimpleMail Utility"
+    assert email.signature == "The MordorMail Utility"
 
 
 def test_initialization_with_tag():
