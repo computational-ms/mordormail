@@ -22,7 +22,7 @@ class EmailContentClass:
         template_name: str = "default.html",
         template_vars: dict = None,
         tag: str = None,
-        signature: str = "The SimpleMail Utility",
+        signature: str = "The MordorMail Utility",
     ):
         self.msg = msg
         self.subject = subject

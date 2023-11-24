@@ -3,7 +3,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from typing import List
 
-from simple_mail.EmailContentClass import EmailContentClass
+from mordormail.EmailContentClass import EmailContentClass
 
 
 def send_email(
