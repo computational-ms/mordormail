@@ -1,5 +1,14 @@
 # IntelliJ project files
 .idea
+.Python
+build/
+dist/
+wheels/
 *.iml
 out
 gen
+.env
+.venv
+env/
+venv/
+ENV/
